@@ -1,0 +1,24 @@
+body {
+    background-color: #AEAEAE;
+}
+
+.container {
+    padding: 20px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.splashscreen {
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    width:100%;
+    background-color:white;
+}
+
+.square {
+    background-color: rgb(216, 41, 41);
+    width: 400px;
+    height: 400px;
+}
