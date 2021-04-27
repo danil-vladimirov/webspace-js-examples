@@ -19,11 +19,11 @@ let day = today.getDay();
 
 // if day is less than 5 show div with 'weekdays' class name + hide other one
 if (day < 5) {
-    myJob.style.display = "none";
-    weekend.style.display = "block";
+    myJob.style.display = "block";
+    weekend.style.display = "none";
 }
 // vice versa
 else {
-  myJob.style.display = "block";
-  weekend.style.display = "none";
+  myJob.style.display = "none";
+  weekend.style.display = "block";
 }
